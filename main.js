@@ -12,7 +12,7 @@ console.log(studentOne, studentTwo);
 
 class CollegeStudent extends Student {
   constructor(name, grade, id, college) {
-    super(name, grade, id, college);
+    super(name, grade, id );
     this.college = college;
   }
 }
@@ -27,7 +27,7 @@ console.log(newCollegeStudent);
 
 class HighSchoolStudent extends Student {
   constructor(name, grade, id, highSchool, age, email) {
-    super(name, grade, id, highSchool, age, email);
+    super(name, grade, id);
     this.highSchool = highSchool;
     this.age = age;
     this.email = email;
@@ -54,7 +54,7 @@ console.log(HighSchoolStudentTwo);
 
 class JonuirHigh extends Student {
   constructor(name, grade, id, jonuirHigh) {
-    super(name, grade, id, jonuirHigh);
+    super(name, grade, id);
     this.jonuirHigh = jonuirHigh;
   }
 }
